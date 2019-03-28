@@ -24,8 +24,8 @@ Future<void> main() async {
   });
 
   // TODO: why?
-  // TODO: comment the next line, and make hot restart to see the subscription initial data in console
-  await repository.numberOfMessages;
+  // TODO: comment the next line and use hot restar to see the subscription initial data in console
+  await Future.delayed(Duration(seconds: 1));
 
   runApp(MaterialApp(home: Container()));
 }
